@@ -1,0 +1,125 @@
+#header{
+	background-image:url("book2.jpg");
+	background-color: #F5F5DC;
+	height : 800px;
+	padding : 20px;
+}
+
+#a{
+	color:#ffff99;
+	font-size:40px;
+	float:left;
+}
+
+#b{
+	color:#bbff33;
+	font-size:15px;
+	float:left;
+}
+
+#left_panel{
+	background-color:yellow;
+	float:left;
+	width:20%;
+	padding: 15px;
+}
+
+#right_panel{
+	background-color:#ccc;
+	float:right;
+	width: 73%;
+	padding:15px;
+}
+
+#footer{
+	clear:both;
+	background-color:burlywood;
+	height: 80px;
+}
+
+h1, h3 {
+	color : brown;
+}
+
+.centerText{
+	text-align: center;
+	padding: 5px;
+}
+#header, #footer, #right_panel, #left_panel{
+	border-radius: 4px;
+	margin: 5px;
+}
+/*===side bar====*/
+.sidenav {
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: yellow; /* yellow */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #111;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #4870d4;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*side bar close*/
+
+
+
+/*tabs*/
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+/*tab close*/
