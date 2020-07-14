@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Find My Book</title>
+		<link rel="stylesheet" type="text/css" href="fmb1.css">
+	
+	</head>
+	
+	<body>
+	
+	<script src="fmb1.js">
+	</script>
+		
+		<div class="topnav" id="myTopnav">
+			<a href="#home" class="active">Home</a>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+			</a>
+		</div>
+
+			
+		<p style="text-align: center; font-size: 20px;">Search by : 
+	<input type="radio" name="searchtype" value="Title"> Title </input>
+	<input type="radio" name="searchtype" value="Author"> Author </input>
+	<input type="radio" name="searchtype" value="ISBN"> ISBN </input></p>
+
+		<center><input type="text" placeholder="Search.." name="search" class="searchbar"></input></center>
+
+	<br><br>
+
+	<div class="row">
+		<div class="column">
+			<img src="b1.jpg" alt="book" style="width: 150px; height: 200px">
+			<p>Book1<br>Enid Blyton<br>LKR 350.00</p>
+		</div>
+		<div class="column">
+			<img src="b2.jpg" alt="book" style="width: 150px; height: 200px">
+			<p>Book2<br>Enid Blyton<br>LKR 450.00</p>
+		</div>
+		<div class="column">
+			<img src="b3.jpg" alt="book" style="width: 150px; height: 200px">
+		</div>
+		<div class="column">
+			<img src="b4.jpg" alt="book" style="width: 150px; height: 200px">
+		</div>
+		<div class="column">
+			<img src="b5.jpg" alt="book" style="width: 150px; height: 200px">
+		</div>
+		<div class="column">
+			<img src="b6.jpg" alt="book" style="width: 150px; height: 200px">
+		</div>
+	</div>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<form>
+		<center><select id="city" style="font-size: 15px; width: 50%"></center>
+			<option value="" selected="">Enter your city : </option>
+			<option value="kalutara">Kalutara</option> <option value="colombo">Colombo</option> <option value="gampaha">Gampaha</option>
+			<option value="kandy">Kandy</option> <option value="matara">Matara</option> <option value="galle">Galle</option>
+			<option value="hambantota">Hambantota</option> <option value="rathnapura">Rathnapura</option> 
+			<option value="anuradhapura">Anuradhapura</option><option value="trincomalee">Trincomalee</option> 				   
+			<option value="badulla">Badulla</option> <option value="matale">Matale</option> <option value="mannar">Mannar</option>
+			<option value="jaffna">Jaffna</option> 
+		</select>
+	</form>
+
+	<p style="font-size: 20px; text-align: left;">Available bookshops</p>
+
+	<br><br>
+
+			<div id="footer" class="centerText">
+				<p>Web site is maintanined by the csc113&alpha; <br>
+					Last Updated : <span id = "date"></span><br>
+					Last Updated : 
+					<script>
+						document.write(document.lastModified);
+					</script>
+				</p>
+			</div>
+			<script>
+				document.getElementById("date").innerHTML = document.lastModified;
+			</script>
+
+		
+		
+		
+	</body>
+</html>
