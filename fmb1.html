@@ -3,8 +3,7 @@
 	<head>
 		<title>Find My Book</title>
 		<link rel="stylesheet" type="text/css" href="fmb1.css">
-		<meta name = "viewport" content = "width-device-width, initial-scale = 1.0">
-		 <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">   
+		<meta http-equiv="refresh">
 	</head>
 	
 	<body>
@@ -14,102 +13,29 @@
 			
 		<div class="topnav" id="myTopnav">
 			<a href="#home" class="active">Home</a>
-			<a href="#search">search</a>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
 			<a href="#about">About</a>
-			<a href="#collection">collection</a>
-	
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+			</a>
 		</div>
-
-			
-		<div id="header" img src = "book2.jpg" >
-			<h1 id="a"><b>FIND MY BOOK</b></h1>
-			
-		
-		</div>
-			
-			
-			<div id="right_panel">
-			
-				<h3>New arrivals</h3>
-					
-					<div class="books">
-						<ul>
-							<li>
-								<!--book1-->
-								<a href="<a href="https://www.vijithayapa.com/product/view/3131">
-									<img src="https://www.vijithayapa.com/Prodpics/SB30761.jpg" alt="Manjira" width="127" height="188">
-								</a>
-						
-									
-									<div class="contentsub1">Manjira</div>
-									<div class="contentsub2">by Gayani Ahinsa</div>	
-									<div class="contentsub3">Rs. 490.00</div>	
-							</li>
-								
-						
-							<li>			
-								<!--book2-->
-								<a href="https://www.vijithayapa.com/product/view/31303">
-								<img src="https://www.vijithayapa.com/Prodpics/BK200795.jpg" alt="Street Child" width="127" height="188">
-								</a>			
-									
-									<div>Streat child</div>
-									<div>by Berlie Doherty</div>
-									<div>Rs. 1,090.00</div>	
-							</li>
-			
-							<li>
-								<!--book3-->
-								<a href="https://www.vijithayapa.com/product/view/31283">
-								<img src="https://www.vijithayapa.com/Prodpics/BK214929.jpg" alt="Tyrantâ€™s Tomb : Trials Of Apollo 04" width="127" height="188">
-								</a>
-														
-									<div>Trials Of Apollo 04</div>
-									<div>by Rick Riordan</div>
-								
-									<div>Rs. 1,800.00</div>	
-				
-							</li>
-	
-							<li>
-							<!--book4-->
-								<a href="https://www.vijithayapa.com/product/view/31078">
-										
-								<img src="https://www.vijithayapa.com/Prodpics/BK%20215435.jpg" alt="Asterix and the Chieftain's Daughter" width="127" height="188">
-								</a>
-						
-										
-									<div>Asterix and the <br>Chieftain's Daughter</div>
-									<div>by Jean-Yves Ferri</div>
-										
-									<div>Rs. 1,150.00</div>	
-							</li>
-			
-							<li>
-							<!--book5-->
-								<a href="https://www.vijithayapa.com/product/view/31064">
-										
-								<img src="https://www.vijithayapa.com/Prodpics/SB%2029441.jpg" alt="Adisi Nadiya" width="127" height="188">
-							  	</a>
-						
-										
-									<div>Adisi Nadiya</div>
-									<div>by Kapila Kumara Kalinga</div>
-									<div>Rs. 500.00</div>	
-											
-							</li>
-						</ul>
-						
-					</div>
-				
+			<h1>About</h1>
+			<div id="middle_panel">
+				<p>On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look. You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab.
+Most controls offer a choice of using the look from the current theme or using a format that you specify directly. To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Style gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template. On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document.
+You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look. You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly.
+</p>
 			</div>
-			
-			
-			
+
+			<h1>Feedback</h1> 
+			Email Address: <input type="textbox" Name="email" style="width:50%"></input><br><br>
+			Comments:<br><textarea rows="5" cols="100"></textarea> <br><br>
+			<button type="send" name="send"  >SEND</button>
 			<div id="footer" class="centerText">
 				<p>Web site is maintanined by the csc113&alpha; <br>
 					Last Updated : <span id = "date"></span><br>
-				 
+					Last Updated : 
 					<script>
 						document.write(document.lastModified);
 					</script>
